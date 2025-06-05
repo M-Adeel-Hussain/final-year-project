@@ -20,7 +20,7 @@ function Rout() {
       <>
       <BrowserRouter basename='final-year-project'>
         <Routes>
-      <Route exact path="/final-year-project" element={<Start/>} />
+      <Route exact path="/" element={<Start/>} />
       <Route exact path="/orgDashboard" element={isAuthenticated ?<Org /> : <OrgLogin />}/>
         <Route exact path="/orgLogin" element={<OrgLogin />} />
         <Route exact path="/orgReg" element={<OrgReg />} />
