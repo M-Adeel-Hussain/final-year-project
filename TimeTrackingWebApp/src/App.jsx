@@ -18,9 +18,9 @@ function App() {
 
   return (
       <>
-      <HashRouter>
+      
         <Routes>
-      <Route exact path="/" element={<Start/>} />
+      <Route exact path="/final-year-project" element={<Start/>} />
       <Route exact path="/orgDashboard" element={isAuthenticated ?<Org /> : <OrgLogin />}/>
         <Route exact path="/orgLogin" element={<OrgLogin />} />
         <Route exact path="/orgReg" element={<OrgReg />} />
@@ -33,7 +33,6 @@ function App() {
         <Route exact path="/liveTrack-pro" element={<LiveTrack />} />
         <Route exact path="/EmpLogin" element={<EmpLogin />} />
     </Routes>
-    </HashRouter>
 </>
   );
 }
