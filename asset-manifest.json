@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/final-year-project/static/css/main.1f9f3627.css",
-    "main.js": "/final-year-project/static/js/main.dbbcb321.js",
+    "main.js": "/final-year-project/static/js/main.655da086.js",
     "static/js/488.81c32521.chunk.js": "/final-year-project/static/js/488.81c32521.chunk.js",
     "static/media/TimeStart.jpg": "/final-year-project/static/media/TimeStart.bc404feccb97e1ddc380.jpg",
     "static/media/login-bg.jpg": "/final-year-project/static/media/login-bg.b47a5b32aedc041f4b7a.jpg",
@@ -16,11 +16,11 @@
     "static/media/logo2.png": "/final-year-project/static/media/logo2.0fa96352d40963bf71f6.png",
     "index.html": "/final-year-project/index.html",
     "main.1f9f3627.css.map": "/final-year-project/static/css/main.1f9f3627.css.map",
-    "main.dbbcb321.js.map": "/final-year-project/static/js/main.dbbcb321.js.map",
+    "main.655da086.js.map": "/final-year-project/static/js/main.655da086.js.map",
     "488.81c32521.chunk.js.map": "/final-year-project/static/js/488.81c32521.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f9f3627.css",
-    "static/js/main.dbbcb321.js"
+    "static/js/main.655da086.js"
   ]
 }
