@@ -1,0 +1,47 @@
+.time-stamp {
+  text-align: center;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 320px;
+  margin: auto;
+  font-family: "Arial", sans-serif;
+}
+
+.swheding {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.swtimer {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+.swbtn {
+  background: rgb(98, 84, 205); /* Button color related to rgb(68, 54, 175) */
+  color: white;
+  border: 2px solid rgb(255, 255, 255, 0.6);
+  padding: 12px 24px;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.swbtn:hover {
+  background: rgb(58, 44, 155);
+  transform: scale(1.05);
+}

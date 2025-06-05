@@ -1,0 +1,209 @@
+/*! Organization login CSS */
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+:root {
+  --button-color: rgb(68, 54, 175);
+  --login-font-style: normal normal bold 1.9rem verdana;
+  --hdng-font-style: normal normal bold 1.2rem monospace;
+}
+.org-login,
+.emp-login {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../img/login-bg.jpg);
+  background-size: 100% 120%;
+  /* background-size: cover; */
+  position: relative;
+}
+.emp-login {
+  background: url(../img/Background.jpg);
+  background-size: 100% 120%;
+}
+.page,
+.emp-page {
+  width: 30%;
+  height: 70%;
+  background: rgba(5, 5, 5, 0.1);
+  backdrop-filter: blur(0.7rem);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 0.9rem;
+  font: var(--login-font-style);
+  color: white;
+  box-shadow: 0px 0px 1.2rem black;
+  position: absolute;
+}
+.emp-page {
+  left: 43%;
+}
+.orgTitle {
+  text-align: center;
+  margin: 1.9rem 0px 1.9rem 0px;
+  font-size: 1.9rem;
+}
+.loginlabel {
+  display: block;
+  padding: 0.7rem 0px 0px 3.1rem;
+  font-size: 1.7rem;
+}
+.lgninput {
+  width: 70%;
+  height: 2.4rem;
+  border-radius: 10px;
+  border-style: none;
+  margin: 0px 0px 0.7rem 3.1rem;
+  padding: 0px 1.3rem 0px 1.3rem;
+  font: normal normal 500 0.9rem arial;
+  outline: none;
+  box-shadow: 0px 0px 1.3rem black;
+  background: none;
+}
+.lgninput:focus {
+  background: white;
+}
+.forgtpswd {
+  width: 100%;
+  height: 5%;
+  font: normal normal 500 0.8rem sans-serif;
+  color: rgb(68, 54, 175);
+  text-align: right;
+  padding-right: 9%;
+}
+#fppath {
+  color: white;
+  text-shadow: 0 0 1rem black;
+}
+
+.lgnbtn {
+  display: block;
+  width: 35%;
+  height: 50px;
+  background: var(--button-color);
+  border: none;
+  border-radius: 0.7rem;
+  font: var(--login-font-style);
+  color: white;
+  box-shadow: 0px 0px 0.7rem black;
+  margin: 2% 0% 0% 33%;
+  text-align: center;
+  cursor: pointer;
+}
+.error {
+  color: wheat;
+  margin-top: 1.3rem;
+  font-size: 1.3rem;
+  text-align: center;
+}
+.register {
+  width: 100%;
+  height: 8%;
+  /* border: 1px solid rgb(30, 255, 0); */
+}
+
+.register #reg {
+  /* border: 1px solid red; */
+  font: normal normal 600 1rem Arial;
+  color: rgb(254, 253, 255);
+  margin: 0% 0% 0% 10%;
+  text-decoration: underline;
+  padding-right: 0.3rem;
+  display: inline-block;
+  text-shadow: 0 0 1rem black;
+}
+.page i,
+.emp-page i {
+  font: italic normal 100 0.7rem Arial;
+  color: black;
+  display: inline-block;
+}
+
+#frgtpswd {
+  width: 100%;
+  height: 100%;
+  background: rgba(15, 15, 15, 0.1);
+  backdrop-filter: blur(0.6rem);
+  -webkit-backdrop-filter: blur(0.6rem);
+  display: none;
+  position: relative;
+}
+.crossign:hover {
+  background: rgba(249, 249, 250, 0.4);
+  cursor: pointer;
+  box-shadow: 0px 0px 0.6rem black, 0px 0px 0.6rem white;
+}
+.crossign {
+  color: black;
+  width: 4%;
+  height: 7%;
+  border-radius: 3.1rem;
+  text-align: center;
+  font: var(--login-font-style);
+  color: white;
+  transition: 0.5s ease;
+  position: absolute;
+  top: 5%;
+  right: 2%;
+  text-decoration: none;
+}
+
+.fpbpage {
+  width: 30%;
+  height: 65%;
+  color: white;
+  background: rgba(4, 4, 4, 0.4);
+  border-radius: 2%;
+  box-shadow: 0 0 0.6rem black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fpfom {
+  width: 100%;
+  height: 100%;
+  padding: 5% 10% 0% 10%;
+}
+.fphdng {
+  width: 100%;
+  height: 10%;
+  font: var(--login-font-style);
+  text-align: center;
+  margin: 2% 0 5% 0;
+}
+.fplabl {
+  display: block;
+  font: var(--hdng-font-style);
+  margin: 0.9rem 0 0.3rem 0;
+}
+.fpinpt {
+  width: 85%;
+  height: 10%;
+  margin: 1% 0;
+  border-radius: 0.5rem;
+  outline: none;
+  border-style: none;
+  box-shadow: 0px 0px 0.6rem black;
+  padding: 0% 5% 0%;
+  font: normal normal 500 0.9rem arial;
+}
+.fpbtn {
+  display: block;
+  width: 40%;
+  height: 10%;
+  background: var(--button-color);
+  border: none;
+  border-radius: 0.6rem;
+  font: var(--hdng-font-style);
+  color: white;
+  box-shadow: 0px 0px 0.6rem black;
+  margin: 5% 0% 0% 25%;
+  text-align: center;
+  cursor: pointer;
+}

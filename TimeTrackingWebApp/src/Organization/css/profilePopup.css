@@ -1,0 +1,150 @@
+/* Profile container */
+.profile-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* Profile Popup */
+.profile-popup {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  background: white;
+  width: 200px;
+  padding: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+}
+
+/* Keep popup visible when hovering */
+.profile-popup:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Organization Logo */
+.org-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Organization Name */
+.org-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+.home-button,
+.logout-button {
+  width: 100%;
+  padding: 8px 12px;
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.logout-button {
+  background-color: #dc3545;
+}
+
+.home-button:hover {
+  background-color: #0056b3;
+}
+
+.logout-button:hover {
+  background-color: #c82333;
+}
+
+/* Register Text */
+
+/* Responsive */
+@media (max-width: 600px) {
+  .profile-popup {
+    width: 180px;
+    top: 55px;
+    padding: 10px;
+  }
+  .org-logo {
+    width: 60px;
+    height: 60px;
+  }
+  .home-button,
+  .logout-button {
+    font-size: 12px;
+  }
+}
+
+/* ✅ Full page blur effect */
+.blur-background {
+  filter: blur(5px);
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+}
+
+/* ✅ Modal Overlay (Blurs the background fully) */
+.org-edit-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark blur effect */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ✅ Centered Form */
+.org-edit-form {
+  background: white;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  /* width: 300px; */
+  position: relative;
+}
+
+/* ✅ Inputs */
+.org-edit-input {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  width: 100%;
+}
+
+/* ✅ Submit Button */
+.org-edit-confirm {
+  background: blue;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* ❌ Close Button */
+.org-close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}

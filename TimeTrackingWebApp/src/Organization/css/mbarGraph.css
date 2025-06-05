@@ -1,0 +1,67 @@
+.mgraph-container {
+  width: 95%;
+  height: 360px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mgctabs {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 10px;
+  height: 60px;
+}
+
+.mgtab:focus {
+  background-color: #007bff;
+}
+.mgtab {
+  width: 20%;
+  margin: 10px 20px;
+  padding: 0px 20px;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 30px;
+}
+
+.mgactiv {
+  width: 20%;
+  margin: 10px 20px;
+  padding: 0px 20px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  display: block;
+}
+
+.mchart-container {
+  position: relative;
+  height: 280px;
+}
+
+.mbar-values {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 93%;
+  top: -20px;
+  left: 60px;
+  z-index: 1;
+  margin: 10px 0px;
+}
+
+.mbar-value {
+  text-align: center;
+  font-weight: normal;
+  font-size: 0.6rem;
+  color: #333;
+}

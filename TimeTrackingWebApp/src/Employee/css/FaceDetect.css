@@ -1,0 +1,54 @@
+.Face-detect-page {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.faccrossign:hover {
+  background: rgba(249, 249, 250, 0.4);
+  cursor: pointer;
+  box-shadow: 0px 0px 0.6rem black, 0px 0px 0.6rem white;
+}
+.faccrossign {
+  color: black;
+  width: 4%;
+  height: 7%;
+  border-radius: 3.1rem;
+  text-align: center;
+  font: var(--login-font-style);
+  transition: 0.5s ease;
+  position: absolute;
+  top: 5%;
+  right: 2%;
+  text-decoration: none;
+}
+/* .cam-Open,  */
+.emp-webcam-box {
+  border: 2px solid black;
+  position: absolute;
+  top: 15%;
+  right: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 300;
+}
+.emp-login-btn {
+  width: 50%;
+}
+.pin-login-btn {
+  width: 10%;
+  height: 7%;
+  position: absolute;
+  bottom: 5%;
+  right: 10%;
+  border-radius: 0.6rem;
+  background-color: #516a89;
+  border: none;
+  box-shadow: 0 0 0.6rem black;
+  font: normal normal bold 1.25rem verdana;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0.5%;
+  text-align: center;
+}

@@ -1,0 +1,283 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  scroll-behavior: none;
+  box-sizing: border-box;
+}
+:root {
+  --button-color: rgb(68, 54, 175);
+  --login-font-style: normal normal bold 1.9rem verdana;
+  --hdng-font-style: normal normal bold 1.2rem monospace;
+}
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.asidetab {
+  width: 20%;
+  height: 100%;
+}
+
+.sideBar {
+  width: 20%;
+  height: 100%;
+  background: rgb(72, 70, 92);
+}
+.logodiv {
+  width: 100%;
+  height: 20%;
+}
+.logo {
+  width: 180px;
+  padding: 5% 0% 5% 30%;
+}
+.menu {
+  width: 100%;
+  height: 10%;
+  padding: 20px 0px 2px 0px;
+}
+li {
+  width: 40px;
+  height: 5px;
+  background: white;
+  display: block;
+  margin: 5px 0px 5px 20px;
+}
+.tab {
+  width: 100%;
+  height: 55%;
+  padding: 15px 5px 5px 5px;
+}
+
+.dashboard {
+  width: 100%;
+  height: 20%;
+  padding: 8px 0px 8px 25px;
+  margin-bottom: 5px;
+  transition: 0.5s ease;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.dashboard:hover {
+  background: rgb(46, 44, 58);
+  box-shadow: 0px 0px 10px white;
+  border-radius: 5px;
+}
+.dashboard.active {
+  background: rgb(46, 44, 58);
+  box-shadow: 0px 0px 10px white;
+  border-radius: 5px;
+}
+
+.dblogo {
+  width: 15%;
+  margin-top: 5px;
+  float: left;
+}
+
+.appname {
+  width: 100%;
+  height: 14%;
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+.nav-button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  margin: 0px 10px;
+  font: normal normal 600 15px verdana;
+  padding: 0px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.main {
+  width: 80%;
+  height: 100%;
+}
+.visible {
+  display: block;
+}
+.Hide {
+  display: none;
+}
+
+.head {
+  width: 100%;
+  height: 10%;
+  border-bottom: 0.5px solid rgb(89, 87, 87);
+  background: #eeececda;
+  position: relative;
+}
+.h2 {
+  font: normal normal bold 30px verdana;
+  width: 25%;
+  height: 50%;
+  text-align: center;
+  padding: 15px 0px 5px 0px;
+  display: inline-block;
+  position: absolute;
+  color: black;
+}
+
+.duration {
+  width: 100%;
+  height: 9%;
+  border-bottom: 0.5px solid rgb(89, 87, 87);
+  background: white;
+  padding: 0% 0% 0% 5%;
+  display: flex;
+}
+.weektab {
+  color: #767be3;
+  text-decoration: none;
+  margin: 2px 10px;
+  outline: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.monthtab {
+  color: #767be3;
+  text-decoration: none;
+}
+.wshow {
+  color: #f9f9fc;
+  text-decoration: none;
+  margin: 2px 10px;
+  outline: none;
+  background: rgb(46, 44, 58);
+  border-radius: 5px;
+  padding: 5px 8px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px black;
+  font-size: 20px;
+}
+main {
+  width: 100%;
+  height: 80%;
+}
+.tabs {
+  width: 100%;
+  height: 25%;
+  position: relative;
+}
+.totalOrg {
+  width: 30%;
+  height: 80%;
+  position: absolute;
+  left: 2%;
+  top: 10%;
+  box-shadow: 0px 0px 10px black;
+  border-radius: 5px;
+  transition: 0.5s ease;
+}
+
+.totalOrg:hover {
+  background: rgb(72, 70, 92);
+  color: white;
+}
+main .tabs .totalOrg .h31 {
+  font: normal normal bold 20px verdana;
+  padding: 20px 0px 0px 15px;
+  transition: 0.1s ease;
+}
+main .tabs .totalOrg .par1 {
+  font: normal normal bold 25px verdana;
+  transition: 0.1s ease;
+  float: right;
+  padding: 10px 60px 0px 0px;
+}
+main .tabs .active {
+  width: 30%;
+  height: 80%;
+  position: absolute;
+  left: 35%;
+  top: 10%;
+  box-shadow: 0px 0px 10px black;
+  border-radius: 5px;
+  transition: 0.5s ease;
+}
+
+main .tabs .active:hover {
+  background: rgb(72, 70, 92);
+  color: white;
+}
+main .tabs .active .h32 {
+  font: normal normal bold 20px verdana;
+  padding: 20px 0px 0px 15px;
+  transition: 0.1s ease;
+}
+main .tabs .active .par2 {
+  font: normal normal bold 25px verdana;
+  transition: 0.1s ease;
+  float: right;
+  padding: 10px 60px 0px 0px;
+}
+main .tabs .nonActive {
+  width: 30%;
+  height: 80%;
+  position: absolute;
+  right: 2%;
+  top: 10%;
+  box-shadow: 0px 0px 10px black;
+  border-radius: 5px;
+  transition: 0.5s ease;
+}
+
+main .tabs .nonActive:hover {
+  background: rgb(72, 70, 92);
+  color: white;
+}
+main .tabs .nonActive .h33 {
+  font: normal normal bold 20px verdana;
+  padding: 20px 0px 0px 15px;
+  transition: 0.1s ease;
+}
+main .tabs .nonActive .par3 {
+  font: normal normal bold 25px verdana;
+  transition: 0.1s ease;
+  float: right;
+  padding: 10px 60px 0px 0px;
+}
+.bargraph {
+  width: 100%;
+  height: 370px;
+}
+.thead {
+  width: 100%;
+  height: 7%;
+}
+.thdata {
+  width: 20%;
+  height: 100%;
+  padding: 25px 10px;
+  text-align: center;
+  font: normal normal normal 15px verdana;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #eeececda;
+}
+.empName {
+  width: 35%;
+}
+.empedit {
+  width: 5%;
+}
+
+.empEdit {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  opacity: 0.5;
+}

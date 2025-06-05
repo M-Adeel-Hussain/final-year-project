@@ -1,0 +1,68 @@
+.graph-container {
+  width: 95%;
+  height: 360px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gctabs {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 10px;
+}
+
+.gtab:focus {
+  background-color: #007bff;
+}
+.gtab {
+  width: 20%;
+  margin: 10px 20px;
+  padding: 0px 20px;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  height: 30px;
+}
+
+.gactiv {
+  width: 20%;
+  margin: 10px 20px;
+  padding: 0px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  display: block;
+  transition: background-color 0.3s;
+  height: 30px;
+}
+
+.chart-container {
+  position: relative;
+  height: 280px;
+}
+
+.bar-values {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  width: 100%;
+  top: -20px; /* Move above the graph */
+  left: 20px;
+  z-index: 1;
+  margin: 10px 0px;
+}
+
+.bar-value {
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #333;
+}
