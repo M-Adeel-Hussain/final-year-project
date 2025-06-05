@@ -18,7 +18,7 @@ function App() {
 
   return (
       <>
-      <HashRouter basename='final-year-project'>
+      <HashRouter>
         <Routes>
       <Route exact path="/" element={<Start/>} />
       <Route exact path="/orgDashboard" element={isAuthenticated ?<Org /> : <OrgLogin />}/>
