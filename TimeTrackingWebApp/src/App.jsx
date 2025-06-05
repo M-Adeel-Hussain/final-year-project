@@ -13,7 +13,7 @@ import LiveTrack from './Employee/js/livetrack-pro.jsx';
 import EmpLogin from './Employee/js/EmpLogin.jsx';
 
 
-function Rout() {
+function App() {
   const isAuthenticated = localStorage.getItem('isAuthenticated') === 'true';
 
   return (
@@ -38,7 +38,7 @@ function Rout() {
   );
 }
 
-export default Rout;
+export default App;
 
 
 
