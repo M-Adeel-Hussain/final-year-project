@@ -1,5 +1,5 @@
 
-import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 import OrgLogin from './Organization/js/01-orgLogin.jsx';
 import OrgReg from './Organization/js/02-orgReg.jsx';
 import Org from './Organization/js/03-orgDashboard.jsx';
@@ -18,7 +18,7 @@ function App() {
 
   return (
       <>
-      <BrowserRouter basename='final-year-project'>
+      <HashRouter basename='final-year-project'>
         <Routes>
       <Route exact path="/" element={<Start/>} />
       <Route exact path="/orgDashboard" element={isAuthenticated ?<Org /> : <OrgLogin />}/>
@@ -33,7 +33,7 @@ function App() {
         <Route exact path="/liveTrack-pro" element={<LiveTrack />} />
         <Route exact path="/EmpLogin" element={<EmpLogin />} />
     </Routes>
-    </BrowserRouter>
+    </HashRouter>
 </>
   );
 }
