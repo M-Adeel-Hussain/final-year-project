@@ -49,7 +49,7 @@ console.log(a+b);
 
           <div className="org-start-link">
             <div className="org-start-btn">
-              <Link to="orgLogin">Organization</Link>
+              <Link to="/orgLogin">Organization</Link>
             </div>
 
             <div className="emp-start-btn" onClick={openWebcam}>

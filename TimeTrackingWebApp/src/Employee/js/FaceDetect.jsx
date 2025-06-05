@@ -53,7 +53,7 @@ function FaceDetect() {
       <div className={`start-Back`}>
         <img className="start-Back-Pic" src={Background} alt="" />
 
-        <Link to="/" className="faccrossign">
+        <Link to="/final-year-project/" className="faccrossign">
           {" "}
           &times;
         </Link>

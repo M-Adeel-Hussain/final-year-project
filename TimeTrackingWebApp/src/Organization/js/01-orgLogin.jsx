@@ -35,7 +35,7 @@ function OrgLogin() {
 
   return (
     <div className="org-login">
-      <Link to="/" className="crossign">
+      <Link to="/final-year-project/" className="crossign">
         &times;
       </Link>
       <div className="page">
