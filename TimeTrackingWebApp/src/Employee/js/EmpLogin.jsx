@@ -1,7 +1,7 @@
 import "../../Organization/css/01-login.css";
 import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import pic1 from "../img/TimeStart.jpg";
+import pic1 from "../img/profile.png";
 import pic2 from "../img/FaceStart.jpg";
 
 function EmpLogin() {
