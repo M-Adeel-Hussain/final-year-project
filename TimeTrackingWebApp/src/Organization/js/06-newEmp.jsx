@@ -115,7 +115,7 @@ function Addemp() {
                   </div>
                   <div className="form-box-data">
                     <label className="reglble" htmlFor="regNo">
-                      Registration No
+                      Reg No
                     </label>
                     <input
                       className="reginpt"
@@ -233,11 +233,11 @@ function Addemp() {
                       </div>
                     )}
                   </div>
-                </div>
 
                 <button className="Dashboard-new-emp" type="submit">
                   Confirm
                 </button>
+                </div>
 
                 {submitted && (
                   <div className="success-box">

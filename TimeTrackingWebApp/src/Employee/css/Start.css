@@ -131,3 +131,80 @@
   align-items: center;
   justify-content: center;
 }
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .start-Back-Pic {
+  width: 100vw;
+  height: 100vh;
+}
+.start-btn {
+  width: 35%;
+  height: 10%;
+  bottom: 8%;
+  font-size: 1.5rem;
+}
+.show-org-emp-btn {
+  width: 80%;
+  height: 50%;
+  left: 50%;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   .start-Back-Pic {
+  width: 100vw;
+  height: 100vh;
+}
+.start-btn {
+  width: 35%;
+  height: 10%;
+  bottom: 8%;
+  font-size: 3rem;
+}
+.show-org-emp-btn {
+  width: 80%;
+  height: 70%;
+  left: 50%;
+  font-size: 2rem;
+}
+.cross-icon-start {
+  width: 15%;
+  height: 100%;
+  border-radius: 3.1rem;
+  font-size: 3.2rem;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .start-Back-Pic {
+  width: 100vw;
+  height: 110vh;
+}
+.start-btn {
+  width: 20%;
+  height: 10%;
+  bottom: 6%;
+}
+.show-org-emp-btn {
+  width: 35%;
+  height: 60%;
+  left: 57%;
+  font-size: 1rem;
+}
+.cross-icon-start {
+  width: 13%;
+  height: 100%;
+  border-radius: 3.1rem;
+  font-size: 1.7rem;
+}
+} 
+
+

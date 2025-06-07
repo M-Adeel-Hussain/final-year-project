@@ -36,21 +36,21 @@ function EmpProfile() {
               {/*{employee.name}*/} {/* add variable employee Name */}
             </label>
             <label className="emp-form-label" htmlFor="accNo">
-              Acc No {"03056629---- "}
+              Acc No: {"03056629"}
               {/* add variable employee Account No */}
             </label>
 
             <label className="emp-form-label" htmlFor="workHrs">
-              30
+              Hour Rate: {30}
               {/*{employee.workingHours}/*} {/* Working Houre */}
             </label>
 
             <label className="emp-form-label" htmlFor="hrsRate">
-              1/hrs
+              Working Hour: {1}/hrs
               {/*Houre Rate*/}
             </label>
             <label className="emp-form-label" htmlFor="earnedAmount">
-              $30
+              Total Sal: {30}$
               {/* ${employee.earnedAmount}/*} {/* Tatal count Salary */}
             </label>
           </form>

@@ -48,7 +48,7 @@
   margin-left: 25%;
 }
 .track-btnlo {
-  padding-top: 10%;
+  padding-top: 6%;
 }
 
 .track-web {
@@ -65,7 +65,7 @@
 }
 
 .track-logout {
-  width: 30%;
+  width: 40%;
   height: 7%;
   border-radius: 0.6rem;
   background-color: #516a89;
@@ -75,9 +75,85 @@
   color: white;
   cursor: pointer;
   text-decoration: none;
-  padding: 2%;
+  padding: 3%;
   text-align: center;
 }
 .track-logout:hover {
   background-color: #2063b5;
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.track-content {
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+}
+.track-aside {
+  width: 100vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.track-org,
+.track-empname,
+.track-status,
+.track-ani {
+  color: rgb(252, 251, 251);
+  width: 24.9%;
+  height: 55%;
+  font-variant: small-caps;
+  font-size: 0.8rem;
+  border: 1px solid white;
+  flex-grow: 2;
+}
+.videos {
+  border-radius: 50%;
+  width: 90%;
+}
+.track-ani {
+  width: 20%;
+  height: 30%;
+  margin-top: 6%;
+  padding: 4%;
+  margin-left: 4%;
+}
+.track-web {
+  width: 90vw;
+  height: 85vh;
+  margin-left: 5vw;
+}
+
+.track-logout {
+  width: 9rem;
+  margin: 0 0 2% 25%;
+  height: 90%;
+  font: normal normal bold 1.25rem verdana;
+  padding: 8%;
+  text-align: center;
+  padding-top: 5%;
+  flex-grow: 2;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+.track-aside {
+  width: 35vw;
+  height: 85vh;
+}
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+ .track-aside {
+  width: 25vw;
+  height: 85vh;
+}
+} 

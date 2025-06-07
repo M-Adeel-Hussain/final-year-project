@@ -45,3 +45,76 @@
   background: rgb(58, 44, 155);
   transform: scale(1.05);
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.time-stamp {
+  width: 80%;
+  margin-bottom: 5%;
+}
+
+.swheding {
+  font-size: 1.5rem;
+}
+
+.swtimer {
+  font-size: 1.8rem;
+  padding: 10px;
+  margin-bottom: 10px;
+  letter-spacing: 2.5px;
+}
+
+.swbtn {
+  padding: 12px 18px;
+  margin: 3px;
+  font-size: 1rem;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+ .time-stamp {
+  width: 60%;
+  margin-bottom: 5%;
+}
+
+.swheding {
+  font-size: 2.2rem;
+}
+
+.swtimer {
+  font-size: 3rem;
+}
+
+.swbtn {
+  padding: 12px 18px;
+  margin: 3px;
+  font-size: 2rem;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .time-stamp {
+  width: 90%;
+  margin-bottom: 5%;
+}
+
+.swheding {
+  font-size: 2.2rem;
+  margin: 2%;
+}
+
+.swtimer {
+  font-size: 3rem;
+  margin: 3%;
+}
+
+.swbtn {
+  padding: 12px 18px;
+  margin: 2%;
+  font-size: 2rem;
+}
+} 

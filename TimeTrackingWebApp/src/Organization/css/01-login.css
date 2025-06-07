@@ -19,7 +19,6 @@
   justify-content: center;
   background: url(../img/login-bg.jpg);
   background-size: 100% 120%;
-  /* background-size: cover; */
   position: relative;
 }
 .emp-login {
@@ -135,6 +134,7 @@
 .crossign:hover {
   background: rgba(249, 249, 250, 0.4);
   cursor: pointer;
+  color: black;
   box-shadow: 0px 0px 0.6rem black, 0px 0px 0.6rem white;
 }
 .crossign {
@@ -156,7 +156,7 @@
   width: 30%;
   height: 65%;
   color: white;
-  background: rgba(4, 4, 4, 0.4);
+  background: rgba(93, 84, 126, 0.4);
   border-radius: 2%;
   box-shadow: 0 0 0.6rem black;
   position: absolute;
@@ -206,4 +206,258 @@
   margin: 5% 0% 0% 25%;
   text-align: center;
   cursor: pointer;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .page,
+  .emp-page {
+    width: 65%;
+    height: 50%;
+  }
+   .emp-page {
+  left: 23%;
+}
+  .orgTitle {
+    font-size: 1.3rem;
+    margin: 1.3rem 0px 8% 0px;
+  }
+  .loginlabel {
+    padding: 0.3rem 0px 0px 1.5rem;
+    font-size: 0.9rem;
+  }
+  .lgninput {
+    width: 70%;
+    height: 1.8rem;
+    margin: 0px 0px 0.5rem 2.1rem;
+    padding: 0px 1rem 0px 1rem;
+    font: normal normal 500 0.8rem arial;
+  }
+
+  .lgnbtn {
+    width: 35%;
+    height: 35px;
+    font-size: 1rem;
+    margin: 6% 0% 0% 33%;
+  }
+  .error {
+    color: rgb(250, 1, 1);
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  .register {
+    width: 100%;
+    height: 8%;
+  }
+
+  .register #reg {
+    font: normal normal 600 0.8rem Arial;
+    margin: 0% 0% 0% 8%;
+    padding-right: 0.3rem;
+  }
+  .page i,
+  .emp-page i {
+    font: italic normal 100 0.5rem Arial;
+  }
+  .crossign {
+    width: 15%;
+    height: 6%;
+    right: 4%;
+    filter: drop-shadow(0 0 2px black);
+  }
+
+  .fpbpage {
+    width: 70%;
+    height: 50%;
+  }
+
+  .fpfom {
+    padding: 5% 5% 0% 5%;
+  }
+  .fphdng {
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 3% 0 5% 0;
+  }
+  .fplabl {
+    font-size: 1.2rem;
+    margin: 1rem 0 0.2rem 0.7rem;
+  }
+  .fpinpt {
+    width: 85%;
+    height: 9%;
+    margin: 1% 7%;
+    padding: 0% 5% 0%;
+    font: normal normal 500 0.9rem arial;
+  }
+  .fpbtn {
+    width: 45%;
+    margin: 5% 0% 0% 27%;
+    font-size: 1.1rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .page,
+  .emp-page {
+    width: 70%;
+    height: 65%;
+  }
+   .emp-page {
+  left: 13%;
+}
+  .orgTitle {
+    font-size: 2.5rem;
+    margin: 6.5% 0px 8% 0px;
+  }
+  .loginlabel {
+    padding: 1% 0px 0px 12%;
+    font-size: 1.8rem;
+  }
+  .lgninput {
+    width: 70%;
+    height: 3.5rem;
+    margin: 1% 0px 4% 13%;
+    font: normal normal 500 1rem arial;
+  }
+  .forgtpswd {
+    font: normal normal 500 1.3rem sans-serif;
+    padding-right: 17%;
+  }
+
+  .lgnbtn {
+    width: 35%;
+    height: 65px;
+    font-size: 2.4rem;
+    margin: 5% 0% 0% 33%;
+  }
+  .error {
+    color: rgb(250, 1, 1);
+    margin-top: 2rem;
+    font-size: 1.7rem;
+  }
+  .register {
+    width: 100%;
+    height: 8%;
+  }
+
+  .register #reg {
+    font: normal normal 600 1.6rem Arial;
+    margin: 5% 0% 0% 8%;
+    padding-right: 0.7rem;
+  }
+  .page i,
+  .emp-page i {
+    font: italic normal 100 1rem Arial;
+  }
+  .crossign {
+    width: 9%;
+    height: 6%;
+    right: 4%;
+    filter: drop-shadow(0 0 2px black);
+    font-size: 2.9rem;
+  }
+
+  .fpbpage {
+    width: 70%;
+    height: 60%;
+  }
+
+  .fpfom {
+    padding: 5% 5% 0% 5%;
+  }
+  .fphdng {
+    font-size: 2.5rem;
+  }
+  .fplabl {
+    font-size: 2rem;
+    margin: 1rem 0 0.2rem 1.2rem;
+  }
+  .fpinpt {
+    width: 85%;
+    height: 9%;
+    margin: 1% 7%;
+    padding: 0% 5% 0%;
+    font: normal normal 500 1.9rem arial;
+  }
+  .fpbtn {
+    font-size: 2.1rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .page,
+  .emp-page {
+    width: 35%;
+    height: 70%;
+  }
+    .emp-page {
+  left: 40%;
+}
+  .orgTitle {
+    font-size: 2.5rem;
+    margin: 2.1rem 0px 5% 0px;
+  }
+  .loginlabel {
+    padding: 0.3rem 0px 0px 2.5rem;
+    font-size: 1.7rem;
+  }
+  .lgninput {
+    width: 70%;
+    height: 2.5rem;
+    margin: 1% 0px 1.1rem 3.2rem;
+    font: normal normal 500 1rem arial;
+  }
+  .forgtpswd {
+    font: normal normal 500 0.9rem sans-serif;
+  }
+
+  .lgnbtn {
+    width: 30%;
+    height: 40px;
+    font-size: 1.4rem;
+    margin: 3% 0% 0% 33%;
+  }
+  .error {
+    color: rgb(250, 1, 1);
+    margin-top: 0.6rem;
+    font-size: 1.3rem;
+  }
+  .register {
+    width: 100%;
+    height: 8%;
+  }
+
+  .register #reg {
+    font: normal normal 600 1rem Arial;
+  }
+  .page i,
+  .emp-page i {
+    font: italic normal 100 0.7rem Arial;
+  }
+  .crossign {
+    width: 4%;
+    height: 7%;
+    right: 4%;
+    filter: drop-shadow(0 0 2px black);
+    font-size: 2.2rem;
+  }
+  .fpbpage {
+    width: 30%;
+    height: 65%;
+  }
+  .fphdng {
+    font-size: 2rem;
+  }
+  .fplabl {
+    font-size: 1.5rem;
+  }
+  .fpinpt {
+    font: normal normal 500 1.2rem arial;
+  }
+  .fpbtn {
+    font-size: 1.4rem;
+  }
 }

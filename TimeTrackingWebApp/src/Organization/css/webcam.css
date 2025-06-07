@@ -61,7 +61,7 @@
 
 .webcam-feed {
   width: 100%;
-  max-width: 500px;
+  max-width: 450px;
   border: 2px solid #ccc;
   border-radius: 10px;
 }
@@ -92,7 +92,7 @@
   font: var(--font-style);
   color: white;
   box-shadow: 0px 0px 10px black;
-  margin: 1% 0% 0% 30%;
+  margin: 1% 0% 0% 10%;
   text-align: center;
   cursor: pointer;
 }
@@ -104,3 +104,45 @@
   margin: 3% 0% 0% 5%;
   padding: 7% 1% 7% 1%;
 }
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.Dashboard-new-emp {
+  width: 50%;
+  height: 10%;
+font-size: 1rem;
+  margin: 1% 0% 10% 3%;
+}
+.webcam-container {
+  text-align: center;
+  padding: 0.1rem;
+  width: 100%;
+  max-width: 800px;
+  height: 10%;
+  margin: 1% 0% 8% 3%;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+ #dashboard-form-newemp {
+  box-shadow: 0px 0px 15px black;
+  border-radius: 2%;
+  width: 95%;
+  height: 100%;
+  margin: 3% 0% 0% 5%;
+  padding: 7% 1% 7% 1%;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #dashboard-form-newemp {
+  width: 75%;
+  height: 100%;
+  margin: 3% 0% 0% 5%;
+  padding: 7% 1% 7% 1%;
+} }

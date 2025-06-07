@@ -30,34 +30,32 @@ const Org = () => {
         </div>
 
         <div className="tab">
-          <Link
+          <div
             className={`dashboard  ${
               activeTab === "dashboard" ? "active" : ""
             }`}
-            to={activeTab === "dashboard" ? "/dashboard.jsx" : "#"}
+            // to={activeTab === "dashboard" ? "/dashboard.jsx" : "#"}
             onClick={() => setActiveTab("dashboard")}
           >
             <img
               className="dblogo"
               src={logo2}
               alt="Dashboard Icon is Missing"
-            ></img>
-            <h3 className="nav-button">Dashboard</h3>
-          </Link>
+            ></img>Dashboard
+          </div>
 
-          <Link
+          <div
             className={`dashboard ${activeTab === "people" ? "active" : ""}`}
-            to={activeTab === "people" ? "/people" : "#"}
+            // to={activeTab === "people" ? "/people" : "#"}
             onClick={() => setActiveTab("people")}
           >
             <img
               className="dblogo"
               src={people}
               alt="Dashboard Icon is Missing"
-            ></img>
+            ></img>People
 
-            <h3 className="nav-button">People</h3>
-          </Link>
+          </div>
 
           <div
             className={`dashboard ${activeTab === "addEmp" ? "active" : ""}`}
@@ -68,9 +66,8 @@ const Org = () => {
               className="dblogo"
               src={new_emp}
               alt="Dashboard Icon is Missing"
-            ></img>
+            ></img>Add Emp
 
-            <h3 className="nav-button">Add Emp</h3>
           </div>
         </div>
         <hr />

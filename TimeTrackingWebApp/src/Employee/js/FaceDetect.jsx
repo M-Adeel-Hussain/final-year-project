@@ -4,6 +4,8 @@ import "../css/FaceDetect.css";
 import "../css/Start.css";
 import Background from "../img/Background.jpg";
 import { Link } from "react-router-dom";
+import pic1 from "../img/TimeStart.jpg";
+import pic2 from "../img/FaceStart.jpg";
 
 function FaceDetect() {
   const webcamRef = useRef(null);
@@ -37,6 +39,10 @@ function FaceDetect() {
     setSavedImage(capturedImage); // Save the image
     setCapturedImage(null); // Hide captured image and Save button
   };
+
+
+  
+  
   return (
     <div className={`Face-detect-page`}>
       {/* {webcamOn && ( */}
@@ -57,12 +63,12 @@ function FaceDetect() {
           {" "}
           &times;
         </Link>
-        <button className="start-btn" onClick={captureImage}>
+        <button className="start-btn emp-login-btn" onClick={captureImage}>
           Match
           {console.log(capturedImage)}
         </button>
       </div>
-      <div className="emp-login-btn">
+      <div className="em-login-btn">
         <Link to="/EmpLogin" className="pin-login-btn">
           Pin Login
         </Link>

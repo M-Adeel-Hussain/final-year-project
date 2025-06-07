@@ -48,14 +48,13 @@ function OrgReg() {
         <h2 className="regtitle">Registration</h2>
         <div
           className="profilelogo"
-          // onMouseEnter={() => setIsPopupVisible(true)}
+          onMouseEnter={() => setIsHovered(true)}
         >
           {/* Profile Picture */}
           <div className="ppic">
             <img
               className="plogo"
-              onMouseEnter={() => setIsHovered(true)}
-              onMouseLeave={() => setIsHovered(false)}
+             
               src={profile}
               alt="Profile Pic"
             />
@@ -64,7 +63,9 @@ function OrgReg() {
             {isHovered && (
               <div className="profile-popup">
                 {organization.isRegistered ? (
-                  <>
+                  <div 
+                  onMouseEnter={() => setIsHovered(true)}
+                  onMouseLeave={() => setIsHovered(false)}>
                     <img
                       className="org-logo"
                       src={organization.logo}
@@ -73,11 +74,11 @@ function OrgReg() {
                     <h3 className="org-name">{organization.name}</h3>
                     <button
                       className="login-button"
-                      onClick={() => navigate("/")}
+                      onClick={() => navigate("/final-year-project/")}
                     >
                       Login
                     </button>
-                  </>
+                  </div>
                 ) : (
                   <p className="register-text">
                     Firstly register your organization.
@@ -115,7 +116,7 @@ function OrgReg() {
               <div className="form-box">
                 <div className="form-box-data">
                   <label className="reglble" htmlFor="orgName">
-                    Organization Name
+                    Org Name
                   </label>
                   <input
                     className="reginpt"
@@ -126,7 +127,7 @@ function OrgReg() {
                 </div>
                 <div className="form-box-data">
                   <label className="reglble" htmlFor="regNo">
-                    Registration No
+                    Reg No
                   </label>
                   <input className="reginpt" type="text" id="regNo" required />
                 </div>
@@ -191,10 +192,10 @@ function OrgReg() {
                     required
                   />
                 </div>
-              </div>
               <button id="reglgobtn" type="submit">
                 Confirm
               </button>
+              </div>
 
               {submitted && (
                 <div className="success-box">

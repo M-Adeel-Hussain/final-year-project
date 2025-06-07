@@ -61,26 +61,22 @@ function EmpLogin() {
       </div>
 
       {display && (
-        <div style={{ display: display }} id="frgtpswd">
+        <div style={{ display: display }} id="frgtpswd" >
           <div className="crossign" onClick={forgtPashide}>
             {" "}
             &times;{" "}
           </div>
-          <div style={{ margin: "7% 2% 0 2%" }}>
+          <div className="slctmdl">
             <div
-              className="modl1"
-              style={{ display: "inline-block", boxShadow: "0 0 10px black" }}
-            >
+              className="modl1" >
               <Link to="/EmpProfile">
-                <img src={pic1} alt="timestart pic is missing" width={650} />
+                <img className="mdlpic1" src={pic1} alt="timestart pic is missing"/>
               </Link>
             </div>
             <div
-              className="modl2"
-              style={{ float: "right", boxShadow: "0 0 10px black" }}
-            >
+              className="modl2">
               <Link to="/liveTrack-pro">
-                <img src={pic2} alt="" width={650} height={365} />
+                <img className="mdlpic2" src={pic2} alt=""/>
               </Link>
             </div>
           </div>
