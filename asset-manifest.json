@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/final-year-project/static/css/main.1f9f3627.css",
-    "main.js": "/final-year-project/static/js/main.655da086.js",
+    "main.css": "/final-year-project/static/css/main.339a2e80.css",
+    "main.js": "/final-year-project/static/js/main.847e68ac.js",
     "static/js/488.81c32521.chunk.js": "/final-year-project/static/js/488.81c32521.chunk.js",
-    "static/media/TimeStart.jpg": "/final-year-project/static/media/TimeStart.bc404feccb97e1ddc380.jpg",
     "static/media/login-bg.jpg": "/final-year-project/static/media/login-bg.b47a5b32aedc041f4b7a.jpg",
     "static/media/Adeel.jpg": "/final-year-project/static/media/Adeel.7562e88eaa72b466f008.jpg",
     "static/media/logo.png": "/final-year-project/static/media/logo.9757a9209927f2543540.png",
     "static/media/ACG-logo.png": "/final-year-project/static/media/ACG-logo.dfa7eb5f0ef0cab5ffa2.png",
+    "static/media/FaceStart.jpg": "/final-year-project/static/media/FaceStart.235dc296a8e6344b35cd.jpg",
     "static/media/profile.png": "/final-year-project/static/media/profile.762b3bd8fd7d7ceaf8fb.png",
+    "static/media/TimeStart.jpg": "/final-year-project/static/media/TimeStart.bd196c3f079433020028.jpg",
     "static/media/Background.jpg": "/final-year-project/static/media/Background.998b7613ca903bb57c4d.jpg",
-    "static/media/FaceStart.jpg": "/final-year-project/static/media/FaceStart.81bdd0d343c6f29e4207.jpg",
     "static/media/video.mp4": "/final-year-project/static/media/video.ada7c4244aedb4e785be.mp4",
     "static/media/people.png": "/final-year-project/static/media/people.8f2bdfed46940253d4be.png",
     "static/media/logo2.png": "/final-year-project/static/media/logo2.0fa96352d40963bf71f6.png",
     "index.html": "/final-year-project/index.html",
-    "main.1f9f3627.css.map": "/final-year-project/static/css/main.1f9f3627.css.map",
-    "main.655da086.js.map": "/final-year-project/static/js/main.655da086.js.map",
+    "main.339a2e80.css.map": "/final-year-project/static/css/main.339a2e80.css.map",
+    "main.847e68ac.js.map": "/final-year-project/static/js/main.847e68ac.js.map",
     "488.81c32521.chunk.js.map": "/final-year-project/static/js/488.81c32521.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f9f3627.css",
-    "static/js/main.655da086.js"
+    "static/css/main.339a2e80.css",
+    "static/js/main.847e68ac.js"
   ]
 }
